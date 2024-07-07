@@ -15,7 +15,7 @@ function Contact() {
     setLoading(true);
     try{
         const {data} = await axios.post(
-          "http://localhost:3000/send/mail",
+          "https://vivek8446-gym-website-with-email-functionality.vercel.app/send/mail",
           {
           name,
           email,
@@ -77,14 +77,6 @@ function Contact() {
         </form>
       </section>
     </div>
-    //  style={{
-    //   display : "flex",
-    //   justifyContent: "center",
-    //   alignItems: "center",
-    //   padding: "10px 20px",
-    //   borderRadius: "5px",
-    //   backgroundColor: "#4CAF50",
-    //   }}
   )
 }
 
