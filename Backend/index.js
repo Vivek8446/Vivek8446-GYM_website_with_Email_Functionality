@@ -18,6 +18,10 @@ app.use(
 app.use(express.json());
 app.use(express.urlencoded({ extended:true }));
 
+router.get('/', (req, res) => {
+    res.json("hello");
+});
+
 router.post('/send/mail',async(req, res, next)=>
 {
     const{name, email, message} = req.body;
