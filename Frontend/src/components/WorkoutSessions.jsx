@@ -17,7 +17,7 @@ function WorkoutSessions() {
           <div className="bootcamps">
           <div>
             <h4>Comprehensive Workouts</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores vero cum omnis quae perferendis eum officia quasi consectetur assumenda eos.</p>
+            <p>Each bootcamp session offers a full-body workout, targeting different muscle groups and incorporating various fitness techniques. From cardio to strength training, our diverse routines keep you challenged and engaged.</p>
           </div>
           <div>
             <h4>Motivational Environment</h4>
